@@ -19,10 +19,11 @@ The following Python Packages are used to throughout this project:
 
 ## License of The Source Data
 
-**The wikipedia dataset**(Politicians by Country from the English-language Wikipedia) 
+**The wikipedia dataset** (Politicians by Country from the English-language Wikipedia) 
 * [Terms & Conditions](https://figshare.com/terms)
 
-**The Population dataset** 
+**The Population dataset**
+
 Copyright © 2016, Population Reference Bureau. All rights reserved.
 * [Privacy Policy](http://www.prb.org/DataFinder/Topic/~/link.aspx?_id=11A2A1677D184053936CE705FAEDEC1D&_z=z)
 * [Contact](http://www.prb.org/DataFinder/Topic/~/link.aspx?_id=314EE6FCD2DD46B986A742458744C76A&_z=z)
@@ -37,6 +38,12 @@ See [https://ores.wikimedia.org](https://ores.wikimedia.org) for more informatio
 ## Wikipedia Dataset
 The wikipedia dataset can be found on [Figshare](https://figshare.com/articles/Untitled_Item/5513449).
 The data was extracted via the Wikimedia API using the associated code. It is formatted as a CSV and saved as **page_data.csv** in the "data" directory. Columns are:
+
+| Column |
+| --- |
+| country |
+| page |
+| last_edit |
 
 * "country", containing the sanitised country name, extracted from the category name;
 * "page", containing the unsanitised page title.
