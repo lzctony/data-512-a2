@@ -94,10 +94,10 @@ After retrieving and including the **ORES** (Objective Revision Evaluation Servi
 
 ## Table
 After obtaining the final dataset, I have the following visualizations for my analysis:
-1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population
-2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population
-3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
-4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table1.jpeg)
+2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table2.jpeg)
+3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table3.jpeg)
+4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table4.jpeg)
 
 ## Writeup
 Todo.
