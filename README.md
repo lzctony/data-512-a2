@@ -100,9 +100,24 @@ After obtaining the final dataset, based on the analyses below:
 * the countries with the highest and lowest proportion of high quality articles about politicians.
 I have made 4 tables. Moreover, **table1** and **table2** refer to the first analysis while **table3** and **table4** refer to the second analysis.
 
-1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table1.jpeg)
-2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table2.jpeg)
-3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table3.jpeg)
+1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population
+
+2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population
+
+3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+| country | high_quality_percentage(%) |
+| --- | --- |
+| Korea, North | 23.076923% |
+| Romania | 12.931034% |
+| Saudi Arabia | 12.605042% |
+| Central African Republic | 11.764706% |
+| Qatar | 9.803922% |
+| Guinea-Bissau | 9.523810% |
+| Vietnam | 9.424084% |
+| Bhutan | 9.090909% |
+| Ireland | 8.136483% |
+| United States | 7.832423% |
+
 4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country 
 | country | high_quality_percentage(%) |
 | --- | --- |
