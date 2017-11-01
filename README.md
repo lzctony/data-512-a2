@@ -102,9 +102,36 @@ I have made 4 tables. Moreover, **table1** and **table2** refer to the first ana
 
 1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population
 
+| country | article_population_percentage(%) |
+| --- | --- |
+| Nauru | 0.488029% |
+| Tuvalu | 0.466102% |
+| San Marino | 0.248485% |
+| Monaco | 0.105020% |
+| Liechtenstein | 0.077189% |
+| Marshall Islands | 0.067273% |
+| Iceland | 0.062268% |
+| Tonga | 0.060987% |
+| Andorra | 0.043590% |
+| Federated States of Micronesia | 0.036893% |
+
 2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population
 
+| country | article_population_percentage(%) |
+| --- | --- |
+| India | 0.000075% |
+| China | 0.000083% |
+| Indonesia | 0.000084% |
+| Uzbekistan | 0.000093% |
+| Ethiopia | 0.000107% |
+| Korea, North | 0.000156% |
+| Zambia | 0.000168% |
+| Thailand | 0.000172% |
+| Congo, Dem. Rep. of | 0.000194% |
+| Bangladesh | 0.000202% |
+
 3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+
 | country | high_quality_percentage(%) |
 | --- | --- |
 | Korea, North | 23.076923% |
@@ -118,7 +145,8 @@ I have made 4 tables. Moreover, **table1** and **table2** refer to the first ana
 | Ireland | 8.136483% |
 | United States | 7.832423% |
 
-4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country 
+4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
+
 | country | high_quality_percentage(%) |
 | --- | --- |
 | Finland | 0.174825% |
