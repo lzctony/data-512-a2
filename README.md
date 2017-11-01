@@ -105,17 +105,17 @@ I have made 4 tables. Moreover, **table1** and **table2** refer to the first ana
 3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table3.jpeg)
 4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country 
 | country | high_quality_percentage(%) |
-| ------- | -------------------------- |
-| Finland |        0.174825%		   |
-| Tanzania|        0.245098%		   |
-| Peru    |        0.282486%           |
+| --- | --- |
+| Finland | 0.174825% |
+| Tanzania| 0.245098% |
+| Peru | 0.282486% |
 | Czech Republic | 0.393701% |
-| Lithuania |    | 0.403226% |
-| Moldova |      | 0.469484% |
-| Fiji |         | 0.502513% |
-| Uganda |       | 0.531915% |
-| Luxembourg |   | 0.555556% |
-| Nigeria |      | 0.584795% |
+| Lithuania | 0.403226% |
+| Moldova | 0.469484% |
+| Fiji | 0.502513% |
+| Uganda | 0.531915% |
+| Luxembourg | 0.555556% |
+| Nigeria | 0.584795% |
 
 ## Writeup
 Todo.
