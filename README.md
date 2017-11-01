@@ -1,6 +1,6 @@
 # Data 512 A2: Bias in data
 ## Project Goal
-The goal of this assignment is to explore the concept of 'bias' through data on Wikipedia articles - specifically, articles on political figures from a variety of countries. First, we need to use a machine learning service called **ORES** (Objective Revision Evaluation Service) to estimate the quality of each article for the wekipedia's dataset. Then, we will combine a dataset of Wikipedia articles with a dataset of country populations by matching the country names. After combining these two dataset, I am able to  to perform an analysis of how the coverage of politicians on Wikipedia and the quality of articles about politicians varies between countries. Moreover, the analysis consists of a series of visualizations that show:
+The goal of this assignment is to explore the concept of 'bias' through data on Wikipedia articles - specifically, articles on political figures from a variety of countries. First, we need to use a machine learning service called **ORES** (Objective Revision Evaluation Service) to estimate the quality of each article for the wekipedia's dataset. Then, we will combine a dataset of Wikipedia articles with a dataset of country populations by matching the country names. After combining these two dataset, I am able to  to perform an analysis of how the coverage of politicians on Wikipedia and the quality of articles about politicians varies between countries such as the following:
 * the countries with the greatest and least coverage of politicians on Wikipedia compared to their population.
 * the countries with the highest and lowest proportion of high quality articles about politicians.
 
@@ -92,7 +92,7 @@ After retrieving and including the **ORES** (Objective Revision Evaluation Servi
 | article_quality |
 | population |
 
-## Visualization
+## Table
 After obtaining the final dataset, I have the following visualizations for my analysis:
 1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population
 2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population
