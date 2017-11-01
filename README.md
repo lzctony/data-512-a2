@@ -92,6 +92,8 @@ After retrieving and including the **ORES** (Objective Revision Evaluation Servi
 | article_quality |
 | population |
 
+Note: the revision_id here is the same thing as last_edit in Wikipedia Dataset, which we used to get article predictions from the ORES API.
+
 ## Table
 After obtaining the final dataset, based on the analyses below:
 * the countries with the greatest and least coverage of politicians on Wikipedia compared to their population.
@@ -101,7 +103,19 @@ I have made 4 tables. Moreover, **table1** and **table2** refer to the first ana
 1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table1.jpeg)
 2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table2.jpeg)
 3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table3.jpeg)
-4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table4.jpeg)
+4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country 
+| country | high_quality_percentage(%) |
+| ------- | -------------------------- |
+| Finland |        0.174825%		   |
+| Tanzania|        0.245098%		   |
+| Peru    |        0.282486%           |
+| Czech Republic | 0.393701% |
+| Lithuania |    | 0.403226% |
+| Moldova |      | 0.469484% |
+| Fiji |         | 0.502513% |
+| Uganda |       | 0.531915% |
+| Luxembourg |   | 0.555556% |
+| Nigeria |      | 0.584795% |
 
 ## Writeup
 Todo.
