@@ -93,11 +93,15 @@ After retrieving and including the **ORES** (Objective Revision Evaluation Servi
 | population |
 
 ## Table
-After obtaining the final dataset, I have the following visualizations for my analysis:
-1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table1.jpeg)
-2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table2.jpeg)
-3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table3.jpeg)
-4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table4.jpeg)
+After obtaining the final dataset, based on the analyses below:
+* the countries with the greatest and least coverage of politicians on Wikipedia compared to their population.
+* the countries with the highest and lowest proportion of high quality articles about politicians.
+I have made 4 tables. Moreover, **table1** and **table2** refer to the first analysis while **table3** and **table4** refer to the second analysis.
+
+1. **10 highest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table1.jpeg){:height="200px" width="250px"}
+2. **10 lowest-ranked countries** in terms of number of politician articles as a proportion of country population ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table2.jpeg){:height="200px" width="250px"}
+3. **10 highest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table3.jpeg){:height="200px" width="250px"}
+4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country ![alt text](https://github.com/lzctony/data-512-a2/blob/master/table4.jpeg){:height="200px" width="250px"}
 
 ## Writeup
 Todo.
