@@ -31,6 +31,7 @@ By using the API **ORES** (Objective Revision Evaluation Service), you agree to 
 * **Terms of Use** [(Wikimedia Foundation terms of use)](https://wikimediafoundation.org/wiki/Terms_of_Use/en)
 * **Privacy Policy** [(Privacy policy)](https://wikimediafoundation.org/wiki/Privacy_policy)
 See [https://ores.wikimedia.org](https://ores.wikimedia.org) for more information on how to use the API.
+
 Also under CC-BY-SA 4.0.
 
 ## Wikipedia Dataset
