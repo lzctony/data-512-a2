@@ -31,7 +31,7 @@ By using the API **ORES** (Objective Revision Evaluation Service), you agree to 
 * **Terms of Use** [(Wikimedia Foundation terms of use)](https://wikimediafoundation.org/wiki/Terms_of_Use/en)
 * **Privacy Policy** [(Privacy policy)](https://wikimediafoundation.org/wiki/Privacy_policy)
 See [https://ores.wikimedia.org](https://ores.wikimedia.org) for more information on how to use the API.
-[Software available under the Apache 2 license](http://www.apache.org/licenses/LICENSE-2.0).
+Also under CC-BY-SA 4.0.
 
 ## Wikipedia Dataset
 The wikipedia dataset can be found on [Figshare](https://figshare.com/articles/Untitled_Item/5513449).
