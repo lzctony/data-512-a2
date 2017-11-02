@@ -147,13 +147,13 @@ I have made 4 tables. Moreover, **table1** and **table2** refer to the first ana
 
 | country | high_quality_percentage(%) |
 | --- | --- |
-| Turkmenistan | 0% |
-| Tajikistan | 0% |
-| Monaco | 0% |
-| Mozambique | 0% |
-| Nauru | 0% |
-| Tonga | 0% |
-| Cape Verde | 0% |
-| Guadeloupe | 0% |
-| Kazakhstan | 0% |
-| Suriname | 0% |
+| Turkmenistan | 0.0% |
+| Tajikistan | 0.0% |
+| Monaco | 0.0% |
+| Mozambique | 0.0% |
+| Nauru | 0.0% |
+| Tonga | 0.0% |
+| Cape Verde | 0.0% |
+| Guadeloupe | 0.0% |
+| Kazakhstan | 0.0% |
+| Suriname | 0.0% |
