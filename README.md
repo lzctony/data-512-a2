@@ -65,6 +65,8 @@ The documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/g
 
 When you query the API, you will notice that ORES returns a prediction value that contains the name of one category, as well as probability values for each of the 6 quality categories above. For this project, I only capture and use the value for prediction.
 
+**Note:** There are two articles in the Wikipedia data that could not get the prediction values. 
+
 ## Population data
 The population data is on the [Population Research Bureau website](http://www.prb.org/DataFinder/Topic/Rankings.aspx?ind=14). Download this data as a CSV file (hint: look for the 'Microsoft Excel' icon in the upper right).
 
