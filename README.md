@@ -14,8 +14,6 @@ The following Python Packages are used to throughout this project:
 * **json**
 * **csv**
 * **pandas**
-* **matplotlib**
-* **seaborn**
 
 ## License of The Source Data
 
@@ -54,18 +52,20 @@ You can also download the dataset directly by clicking [**DOWNLOAD**](https://nd
 ## Getting Article Quality Predictions
 Next step, we need to get the predicted quality scores for each article in the Wikipedia dataset above. We're using a Wikimedia API endpoint for a machine learning system called **ORES** (Objective Revision Evaluation Service). [**ORES**](https://www.mediawiki.org/wiki/ORES) estimates the quality of an article (at a particular point in time), and assigns a series of probabilities that the article is in one of 6 quality categories. The options are, from best to worst:
 
-1. **FA** - Featured article
-2. **GA** - Good article
-3. **B** - B-class article
-4. **C** - C-class article
-5. **Start** - Start-class article
-6. **Stub** - Stub-class article
+| Column | Description |
+| --- | --- |
+|  **FA** | Featured article |
+|  **GA** | Good article |
+|  **B** | B-class article |
+| **C** | C-class article |
+| **Start** | Start-class article |
+| **Stub** | Stub-class article |
 
 The documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model).
 
 When you query the API, you will notice that ORES returns a prediction value that contains the name of one category, as well as probability values for each of the 6 quality categories above. For this project, I only capture and use the value for prediction.
 
-**Note:** There are two articles in the Wikipedia data that could not get the prediction values. 
+**Note:** There are four articles in the Wikipedia data that could not get the prediction values. 
 
 ## Population data
 The population data is on the [Population Research Bureau website](http://www.prb.org/DataFinder/Topic/Rankings.aspx?ind=14). Download this data as a CSV file (hint: look for the 'Microsoft Excel' icon in the upper right).
@@ -86,13 +86,13 @@ You can also download the dataset directly by clicking [**DOWNLOAD**](http://www
 ## Final Data File
 After retrieving and including the **ORES** (Objective Revision Evaluation Service) data for each article. I am able to merge the wikipedia data and population data together for further analysis. Both datasets have fields containing country names for just that purpose. After merging the data, I drop the obervations that cannot be matched (Either the population dataset does not have an entry for the equivalent Wikipedia country, or vice versa). The variables of the final dataset are as shown below:
 
-| Column |
-| --- |
-| country |
-| article_name |
-| revision_id |
-| article_quality |
-| population |
+| Column | Description
+| --- | --- |
+| country | 'country name' |
+| article_name | 'article name' |
+| revision_id | 'last edit id' |
+| article_quality | 'article quality prediction by ORES' |
+| population | 'population of the country' |
 
 Note: the revision_id here is the same thing as last_edit in Wikipedia Dataset, which we used to get article predictions from the ORES API.
 
@@ -137,31 +137,27 @@ I have made 4 tables. Moreover, **table1** and **table2** refer to the first ana
 | country | high_quality_percentage(%) |
 | --- | --- |
 | Korea, North | 23.076923% |
-| Romania | 12.931034% |
-| Saudi Arabia | 12.605042% |
-| Central African Republic | 11.764706% |
-| Qatar | 9.803922% |
+| Saudi Arabia | 11.764706% |
+| Uzbekistan | 10.344828% |
+| Central African Republic | 10.294118% |
+| Romania | 9.770115% |
 | Guinea-Bissau | 9.523810% |
-| Vietnam | 9.424084% |
 | Bhutan | 9.090909% |
-| Ireland | 8.136483% |
-| United States | 7.832423% |
+| Vietnam | 8.376963% |
+| Dominica | 8.333333% |
+| Mauritania | 7.692308% |
 
 4. **10 lowest-ranked countries** in terms of number of GA and FA-quality articles as a proportion of all articles about politicians from that country
 
 | country | high_quality_percentage(%) |
 | --- | --- |
-| Finland | 0.174825% |
-| Tanzania| 0.245098% |
-| Peru | 0.282486% |
-| Czech Republic | 0.393701% |
-| Lithuania | 0.403226% |
-| Moldova | 0.469484% |
-| Fiji | 0.502513% |
-| Uganda | 0.531915% |
-| Luxembourg | 0.555556% |
-| Nigeria | 0.584795% |
-
-## Writeup
-Todo.
-
+| Turkmenistan | 0% |
+| Tajikistan | 0% |
+| Monaco | 0% |
+| Mozambique | 0% |
+| Nauru | 0% |
+| Tonga | 0% |
+| Cape Verde | 0% |
+| Guadeloupe | 0% |
+| Kazakhstan | 0% |
+| Suriname | 0% |
